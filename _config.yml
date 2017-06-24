@@ -91,3 +91,8 @@ gems:
 #  - jekyll-admin
 
 exclude:            [vendor]
+
+text:
+  post:
+      updated:        'Updated'
+      minute_read:    'minute read'
