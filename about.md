@@ -3,129 +3,59 @@ title: About
 permalink: /about/
 ---
 
-You can see live demo [here](https://aweekj.github.io/Kiko-plus). This theme is inspired by [Kiko](http://github.com/gfjaru/Kiko) theme.
+My name is Andre Phu-Van Nguyen and I'm an M.Sc.A. student at Polytechnique 
+Montreal part of the Mobile Robotics and Autonomous Systems Laboratory under
+professors [Jerome Le Ny](http://www.professeurs.polymtl.ca/jerome.le-ny/) 
+and [David Saussie](http://www.polymtl.ca/recherche/rc/en/professeurs/details.php?NoProf=513).
 
-## Features
+My research interests focus on aerial robotics with an emphasis on computer 
+vision and path planning. Since the beginning of my bachelor's diploma in
+computer engineering, I have been involved in multiple projects including:
 
-- Disqus comment system
-- Google analytics
-- Pagination support
-- Custom tags
-- SEO support
+* The 6th iteration of the [Esteban Solar Car](http://esteban.polymtl.ca) team 
+where I worked on telemetry systems for remote car monitoring. I was also webmaster
+and main photographer for a while. In 2012 we participated in the 
+[American Solar Challenge](http://americansolarchallenge.org/the-competition/ascfsgp-2012/) raycing across
+the United-States from Rochester, NY to St. Paul, MN over 8 days. We also participated
+in the [Formula Sun Grand Prix](http://americansolarchallenge.org/the-competition/ascfsgp-2012/)
+as it is a mandatory event to qualify for the ASC.
+
+* In 2013 I started the [Elikos](http://elikos.polymtl.ca) autonomous quadrotor
+team where I was team director leading us to win 1st place twice at the American
+Venue of the [International Aerial Robotics Competition](http://aerialroboticscompetition.org/)
+in the summers of 2014 and 2015.
+In addition to my responsibilities in terms of team financing and project 
+management, in our first year I worked on getting an optical flow based quadrotor
+flying using offboard commands (recall that in 2013 px4's offboard control did 
+not yet exist). In our second year we were able to demonstrate ground robot 
+tracking using blob detection, with a new quadrotor equipped for omnidirectional
+sensing. For these accomplishments, in 2014 I was given the award of "Directeur de 
+Société Technique de l'année" (best technical club director) by the Association
+des Étudiants de Polytechnique.
+
+* In 2016 I was team captain of a group of 4 graduate students participating in
+the [DJI Developper Challenge](https://developer.dji.com/news/2016-dji-developer-challenge-10-teams-enter-final-round/) 
+under the name SaveApril (later renamed MRASL) . 
+We were tasked to fufill a search and rescue
+mission consisting of taking off of a moving vehicle, searching for AprilTags
+in a cluttered environment and coming back and landing on a moving vehicle. Out
+of 130 initial proposals we made it to the last selection rounds out of 10 teams
+to be invited to Griffis International airport for field trials. Although we did
+not win, we were still able to publish our moving landing method going at velocity
+of 50 km/h, the fastest landing of a quadrotor on a moving platform as of yet. 
 
 
-## Installation
+## Publications
 
-#### Method 1: new master's repository (The Best)
+### Submitted
 
-1. First [fork](https://github.com/AWEEKJ/Kiko-plus/fork) it.
-2. Change your forked repository name _Kiko-plus_ to __USERNAME.github.io__ where __USERNAME__ is your github username.
-3. Access your new blog via [https://username.github.io](https://username.github.io).
-4. [See configuration](#configuration).
-
-#### Method 2: gh-pages in existing repository
-
-1. Create a new branch called _gh-pages_ in the repository where you want to add a template [managing branches](https://help.github.com/articles/creating-and-deleting-branches-within-your-repository/).
-2. From command line run `git clone https://github.com/AWEEKJ/Kiko-plus.git` - this will clone _Kiko-plus_ template to your computer.
-3. Create new branch `git checkout -b gh-pages` where _gh-pages_ will be your branch name.
-4. Add remote, which is your repo from the first step, to your new branch `git remote add gh-pages https://github.com/<yourName>/<yourMaster>/gh-pages`. _yourName_ is your account name and _yourMaster_ is your repository.
-5. Push new branch to remote `git push gh-pages`.
-6. Update `_config.yml` file by changing `baseurl: "<branchName>"` _branchName_ is your branch name where _gh-pages_ resides. See [configuration](#configuration).
-
-#### Method 3: Run it locally
-
-1. Download [zip](https://github.com/AWEEKJ/Kiko-plus/archive/master.zip) or clone it `git clone https://github.com/AWEEKJ/Kiko-plus`.
-2. Go inside folder and run `jekyll serve` or `rake preview`. This will build a website which you can access [https://localhost:4000](https://localhost:4000). You need to have [Jekyll](https://jekyllrb.com/docs/installation/) installed to do this.
+* M. S. Ramanagopal, **A. P.-V. Nguyen** and J. Le Ny, A Motion Planning Strategy for the Active Vision-Based Mapping of Ground-Level Structures. Submitted, February 2016. 
 
 
-## Configuration
+### Published
 
-All configuration is done via `_config.yml` file which you will find in your main repo folder. Change this `<something>` to yours.
+* A. Borowczyk, D.-T. Nguyen, **A. Phu-Van Nguyen**, D. Q. Nguyen, D. Saussié and J. Le Ny, Autonomous Landing of a Quadcopter on a High-Speed Ground Vehicle. AIAA Journal of Guidance, Control and Dynamics, In Press, 2017. 
 
-### Basic
+### Conference Proceedings
 
-- Config your blog name.
-
-```yml
-name: <blog-name>
-```
-
-- These configuration in `author:` is for links to icons in footer. If you want to add more link icons, modify `_includes/footer.html` file.
-
-```yml
-author:
-  facebook:         your-id
-  twitter:          your-id
-  github:           your-id
-  linkedin:         your-id
-  medium:           your-id
-  tumblr:           your-id
-  email:            your-id@your-email.com
-```
-
-- Change copyright year and name in footer.
-
-```yml
-copyright:
-  year:             2017
-  name:             Kiko
-```
-
-### Google analytics
-
-- Change this to your Google Analytic ID.
-
-```yml
-google-analytics:
-  id:               "your-id"
-```
-
-### Disqus
-
-- Change this to your Disqus short name.
-
-```yml
-disqus:
-  id:               "your-id"
-```
-
-### URL
-
-- Config your domain.
-
-```yml
-url: "https://<your-name>.github.io"
-```
-
-- **NOTE** When if running locally, change url to 
-
-```yml
-url: "https://localhost:4000"
-```
-
-- Change this to your branch name where _gh-pages_ resides. 
-- **NOTE** apply only if you used __Method 2__ for installation.
-
-```yml
-baseurl: "/<branch-name>"
-```
-
-## Rakefile Usage
-
-```bash
-# Create new post
-$ rake post title="A Title" [date="2015-08-16"] [tags="[tag1, tag2]"] 
-
-# Create new draft post
-$ rake draft title="A Title" [date="2015-08-16"] [tags="[tag1, tag2]"]
-
-# Install Jekyll Plugins. Do before running in local.
-$ rake geminstall
-
-# Run in Local
-$ rake preview
-```
-
-## License
-
-This theme is released under MIT License.
+* A. Borowczyk, D.-T. Nguyen, **A. Phu-Van Nguyen**, D. Q. Nguyen, D. Saussié and J. Le Ny, Autonomous Landing of a Multirotor Micro Air Vehicle on a High Velocity Ground Vehicle. Proceedings of the IFAC World Congress, Toulouse, France, July 2017.
