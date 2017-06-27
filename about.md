@@ -6,7 +6,13 @@ permalink: /about/
 My name is Andre Phu-Van Nguyen and I'm an M.Sc.A. student at Polytechnique 
 Montreal part of the Mobile Robotics and Autonomous Systems Laboratory under
 professors [Jerome Le Ny](http://www.professeurs.polymtl.ca/jerome.le-ny/) 
-and [David Saussie](http://www.polymtl.ca/recherche/rc/en/professeurs/details.php?NoProf=513).
+and [David Saussié](http://www.polymtl.ca/recherche/rc/en/professeurs/details.php?NoProf=513).
+In the past, I have been a lab instructor for two classes
+
+* [INF1500](http://www.polymtl.ca/etudes/cours/details.php?sigle=INF1500)
+*Logique des systèmes numériques* Where I taught students about basic logic circuits, boolean algebra and basic VHDL. 
+* [INF1990](http://www.groupes.polymtl.ca/inf1995/)
+*Projet initial en ingénierie informatique et travail en équipe*. Where I helped students build a line following robot the the basics of microcontrollers using an atmega32 based board.
 
 My research interests focus on aerial robotics with an emphasis on computer 
 vision and path planning. Since the beginning of my bachelor's diploma in
@@ -59,3 +65,10 @@ of 50 km/h, the fastest landing of a quadrotor on a moving platform as of yet.
 ### Conference Proceedings
 
 * A. Borowczyk, D.-T. Nguyen, **A. Phu-Van Nguyen**, D. Q. Nguyen, D. Saussié and J. Le Ny, Autonomous Landing of a Multirotor Micro Air Vehicle on a High Velocity Ground Vehicle. Proceedings of the IFAC World Congress, Toulouse, France, July 2017.
+
+## Awards
+
+* 2015 - **Best System Design** - International Aerial Robotics Competition - For presenting an autonomous quadrotor vehicle capable of tracking and following ground robots using color blob detection in a GPS denied environment.
+* 2015 - **Directeur de société technique de l'année** - Association des Étudiants de Polytechnique - For starting team Elikos from scratch and representing the school in an international collegiate engineering competition, my efforts were recognized by the school's student association by naming me director of the year.
+* 2014 - **Best System Design** - International Aerial Robotics Competition - For being the only team capable of optical flow based flight in a GPS denied environment and being the only team capapble of autonomous takeoff. Despite starting our team only 7 months earlier.
+* 2011 - **Philip and Lily Malouf Prize** - Philip and Lily Malouf Foundation - For presenting the best implementation of the first year integrative project in computer and software engineering at Polytechnique Montreal.
