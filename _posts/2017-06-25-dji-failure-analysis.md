@@ -33,17 +33,39 @@ If you look at the configure callback of `MovingLanding_node.cpp` you can see th
 
 Here is the best explanation we can give for what happened at the DJI challenge. The quad approached the truck and as it saw the landing tag it started climbing in altitude due to the positive velocity. Once it got high enough that the AprilTag detection failed, it lowered down back to its `flight_level_low` altitude to search for the tag. Loop and repeat, this was the oscillation we saw instead of the landing.
 
-As for the "air breakdancing" we saw where the quad didn't seem to come back to the truck remains to be explained. My best theory is that somewhere along the way, DJI's data transparent transmission which we used to send IMU and GPS data failed or become intermittent while the quad was far away (lower the quad seemed to have helped with this). As the connection cut off and came back while the truck drove away in a loop, some buffered GPS positions were sent to the quad. As both the current and older positions were sent back, the quad would constantly switch between trying to fly to the current position and flying to a position somewhere on the track.
+As for the "air breakdancing" we saw where the quad didn't seem to come back to the truck remains to be explained. My best theory is that somewhere along the way, DJI's data transparent transmission which we used to send IMU and GPS data failed or became intermittent while the quad was far away (lowering the quad's flight altitude seemed to have helped with this). As the connection cut off and came back while the truck drove away in a loop, some buffered GPS positions were sent to the quad. As both the current and older positions were sent back, the quad would constantly switch between trying to fly to the current position and flying to a position somewhere on the track.
 
 In summary, **we lost 100 000$ because of a minus sign**.
 
+<figure>
+    <img src="/images/rage.png" />
+</figure>
+
 ## Cascading human errors
 
-As I look over the entire challenge, it is clear that this failure wasn't only due to the minus sign. For example, suppose practice day had gone our way, we would have caught this bug on practice day. But practice day would only have succeeded if we hadn't had so much confusion about wifi. Somewhere along the way, we were also the only team
-so concerned by having wireless connectivity. Not only for IMU and GPS data for the landing but also to send back survivor detection data.
+As I look over the entire challenge, it is clear that this failure wasn't only due to the minus sign. For example, suppose practice day had gone our way, we would have caught this bug on practice day after a successful survivor search. But practice day would only have succeeded if we hadn't had so much confusion about wifi. Somewhere along the way, we were also the only team so concerned by having wireless connectivity. Not only for IMU and GPS data for the landing but also to send back survivor detection data. I suspect that many teams didn't even bother with the app because DJI didn't event broadcast the Chromecast feed which was a mandatory feature for the mobile app.
 
 Furthermore, we *did* detect this failure scenario the night before the competition but we dismissed it by saying the DJI simulator wasn't behaving right. Why would we say that? A combination of being too tired to invest more energy in debugging things with a lack of trust in DJI's tools after some of the headaches they caused.
 
+There are many more "what if"s, "should've", "could've" and "would've"s. *I should have stayed at the hangar* that day and encouraged more testing from the team while we waited our turn. *I should have insisted* when I saw the quad gain in altitude in the simulation the day before the flights. *I should have made the team drop the search and rescue operation*, especially after seeing that no other team had a good landing after the end of round 3 and knowing that it would eventually come down to a race to the fastest landing. *I should have implemented a mandatory code review* policy where someone had to at lest glance at your code before merging to master.
+
+
 ## Lessons learned
 
-## Preventive measures
+The are quite a few lessons we can take away from this whole experience. But it's taken me a while to really grasp what I should learn from the DJI Challenge.
+
+### 1. Don't over estimate your opponents
+
+I used to think that it wasn impossible or that it couldn't be harmful to overestimate your opponents. Worst case scenario is that you win by a larger margin if you put in maximum effort. In our case however, at the end of round 3 we were so convinced that all the other teams would be able to perform a full mission including a moving landing, despite no clear evidence for it, that we didn't even consider dropping everything and focusing all our efforts on the landing. Had we not over estimated our opponents, we might have better allocated our efforts in the weeks leading up to the competition.
+
+### 2. Code review even the mudane things
+
+Yeah it feels slow and tedious. But there is a huge safety margin to gain from at the very least having someone else take a quick look at what you are doing. Even small or aesthetic refactoring can hide a 100 000$ bug.
+
+### 3. Get some sleep
+
+As the weeks progressed on, I could definitely feel the diminishing returns effect. I could spend more hours at the office while accomplishing much less. I was overworked but I didn't want to admit it and things felt too urgent for me to give less hours. Giving a consistent 12 hours a day every day for weeks is a sure way of destroying your productivity. Especially when doing work requiring a certain amount creativity with complex logical thinking mixed in. Programming while tired is a sure way of introducing bugs into your code.
+
+### 4. Make sure to set the expectations at the start
+
+When starting a project, make sure everyone involved states what they are ready to give and how much they care for the project. It's fine to say that you care little and you only have 1 hour to give a week. 
