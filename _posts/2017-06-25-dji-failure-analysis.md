@@ -82,6 +82,6 @@ When starting a project, make sure everyone involved states what they are ready 
 
 ### 5. Enforce code freeze procedures
 
-As much as it might pain some people to get their code frozen when they *know* that they can add one more feature or clean up one more thing. The only code that will for sure work is the one that has been tested. **Not** the one one that was modified after a test. As the team manager, I should have forced a code freeze immediately after the successful test before competition day. Even if your code ends up missing a feature and no matter how much the team argues that they can do better, testing new code in production (competition) is never a good idea. 
+As much as it might pain some people to get their code frozen when they *know* that they can add one more feature or clean up one more thing. The only code that will for sure work is the one that has been tested. **Not** the one one that was modified after a test. As the team manager, I should have forced a code freeze immediately after the successful test before leaving Montreal. Even if your code ends up missing a feature and no matter how much the team argues that they can do better, testing new code in production (competition) is never a good idea. 
 
 In the weeks leading up to the competition we did have a small discussion about code freezing but the answer I got was simply "never, there's too many things to do". Lesson learned, no code freeze is simply not an option when the stakes are high.
