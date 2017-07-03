@@ -79,3 +79,7 @@ As the weeks progressed on, I could definitely feel the diminishing returns effe
 ### 4. Make sure to set the expectations at the start
 
 When starting a project, make sure everyone involved states what they are ready to give and how much they care for the project. It's fine to say that you care little and you only have 1 hour to give a week. 
+
+### 5. Enforce code freeze procedures
+
+As much as it might pain some people to get their code frozen when they *know* that they can add one more feature or clean up one more thing. The only code that will for sure work is the one that has been tested. **Not** the one one that was modified after a test. As the team manager, I should have forced a code freeze. In the weeks leading up to the competition we did have a small discussion about code freezing but the answer I got was simply "never". Lesson learned, no code freeze is simply not an option when the stakes are high.
