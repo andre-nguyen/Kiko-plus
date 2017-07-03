@@ -60,7 +60,7 @@ I used to think that it wasn impossible or that it couldn't be harmful to overes
 
 ### 2. Code review even the mudane things
 
-Yeah it feels slow and tedious. But there is a huge safety margin to gain from at the very least having someone else take a quick look at what you are doing. Even small or aesthetic refactoring can hide a 100 000$ bug.
+Yeah it feels slow and tedious. But there is a huge safety margin to gain from, at the very least, having someone else take a quick look at what you are doing. Even small or aesthetic refactoring can hide a 100 000$ bug.
 
 ### 3. Get some sleep
 
