@@ -66,7 +66,7 @@ The are quite a few lessons we can take away from this whole experience. But it'
 
 ### 1. Don't over estimate your opponents
 
-I used to think that it wasn impossible or that it couldn't be harmful to overestimate your opponents. Worst case scenario is that you win by a larger margin if you put in maximum effort. In our case however, at the end of round 3 we were so convinced that all the other teams would be able to perform a full mission including a moving landing, despite no clear evidence for it, that we didn't even consider dropping everything and focusing all our efforts on the landing. Had we not over estimated our opponents, we might have better allocated our efforts in the weeks leading up to the competition.
+I used to think that it was impossible or that it couldn't be harmful to overestimate your opponents. Worst case scenario is that you win by a larger margin if you put in maximum effort. In our case however, at the end of round 3 we were so convinced that all the other teams would be able to perform a full mission including a moving landing, despite no clear evidence for it, that we didn't even consider dropping everything and focusing all our efforts on the landing. Had we not over estimated our opponents, we might have better allocated our efforts in the weeks leading up to the competition.
 
 ### 2. Code review even the mudane things
 
@@ -78,7 +78,7 @@ As the weeks progressed on, I could definitely feel the diminishing returns effe
 
 ### 4. Make sure to set the expectations at the start
 
-When starting a project, make sure everyone involved states what they are ready to give and how much they care for the project. It's fine to say that you care little and you only have 1 hour to give a week. 
+When starting a project, make sure everyone involved states what they are ready to give and how much they care for the project. It's fine to say that you care little and you only have 1 hour to give a week. But at least then, the team can assign you things that are only worth 1 hour per week.
 
 ### 5. Enforce code freeze procedures
 
