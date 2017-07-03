@@ -41,9 +41,19 @@ In summary, **we lost 100 000$ because of a minus sign**.
     <img src="/images/rage.png" />
 </figure>
 
+### But why though?
+
+You might be wondering why did we *even bother* having a minus somewhere in the first place?
+
+If you're familiar with aerospace navigation you'll know that the usual reference frame for navigation is North-East-Down (NED) i.e. *positive* `Z` is towards the ground. In robotics systems such as ROS the coordinate frame is East-North-Up (ENU) i.e. *positive* `Z` is up, something more intuitive to the layman. The developpers at DJI decided to strike a compromise between the two and have their API in NED but with `Z` flipped. This causes some confusion because some users think they are defining a left handed coordinate system but really as soon as they receive a command, they flip `Z` and perform all their computations in NED, a right handed coordinate system, as it should be.
+
+So suppose you are like us and you have a non-trivial system that has to compute rotations and translations and such, you'll do them in the NED system and then flip `Z` right before sending it to the DJI API. For consistency's sake, you'll have your entire system in NED and just flip it at the right moment. That's why we see in the launch file that the landing velocity is positive, because positive in NED means downwards. Unfortunately the mistake here is to have flipped the sign too early in the configuration callback instead of right before sending the velocity command to the quad.
+
+A costly mistake.
+
 ## Cascading human errors
 
-As I look over the entire challenge, it is clear that this failure wasn't only due to the minus sign. For example, suppose practice day had gone our way, we would have caught this bug on practice day after a successful survivor search. But practice day would only have succeeded if we hadn't had so much confusion about wifi. Somewhere along the way, we were also the only team so concerned by having wireless connectivity. Not only for IMU and GPS data for the landing but also to send back survivor detection data. I suspect that many teams didn't even bother with the app because DJI didn't event broadcast the Chromecast feed which was a mandatory feature for the mobile app.
+As I look over the entire challenge, it is clear that this failure wasn't only due to the minus sign. For example, suppose practice day had gone our way, we would have caught this bug on practice day after a successful survivor search. But practice day would only have succeeded if we hadn't had so much confusion about wifi. Somewhere along the way, we were also the only team so concerned by having wireless connectivity. Not only for IMU and GPS data for the landing but also to send back survivor detection data. I suspect that many teams didn't even bother with the app because DJI didn't even broadcast the Chromecast feed which was a mandatory feature for the mobile app.
 
 Furthermore, we *did* detect this failure scenario the night before the competition but we dismissed it by saying the DJI simulator wasn't behaving right. Why would we say that? A combination of being too tired to invest more energy in debugging things with a lack of trust in DJI's tools after some of the headaches they caused.
 
