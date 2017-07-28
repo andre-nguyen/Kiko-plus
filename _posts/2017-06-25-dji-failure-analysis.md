@@ -2,10 +2,10 @@
 layout:     post
 title:      2016 DJI Dev Challenge Failure Analysis and Lessons Learned
 date:       2017-06-25 02:00:00
-summary:    I present what went wrong and analyze what could have been done better to prevent future catastrophes
+summary:    I present what went wrong and analyze what could have been done better to prevent future catastrophes <figure><img src="/images/rage.png" /></figure>
 categories: robotics drones
 ---
-In the time after the competition Alex figured out what had gone wrong. On august 26th 2016, just two days before the competition, a commit had gone in to refactor some flight parameters and simplify things. 
+In the time after the competition Alex figured out what had gone wrong. On august 26th 2016, just two days before the competition, a commit had gone in to refactor some flight parameters and simplify things.
 
 <figure>
     <img src="/images/dji_final_commit.png" />
@@ -29,7 +29,7 @@ Next, we had changes in the moving landing node itself. The callback is simplifi
 >
 When you register your [dynamic reconfigure] callback, it gets invoked immediately with the values currently defined in the parameter server and a level of `0xffffffff`. Those initial values will include anything set in your launch file. You don't need to read the parameters yourself using `getParam()`.
 
-If you look at the configure callback of `MovingLanding_node.cpp` you can see that most lines are simple assignment except on line 91 where the landing speed also has a minus sign in front of it. Whereas before this commit, the callback would be immediately called and the parameter would set a negative landing velocity, now the velocity stayed positive. 
+If you look at the configure callback of `MovingLanding_node.cpp` you can see that most lines are simple assignment except on line 91 where the landing speed also has a minus sign in front of it. Whereas before this commit, the callback would be immediately called and the parameter would set a negative landing velocity, now the velocity stayed positive.
 
 Here is the best explanation we can give for what happened at the DJI challenge. The quad approached the truck and as it saw the landing tag it started climbing in altitude due to the positive velocity. Once it got high enough that the AprilTag detection failed, it lowered down back to its `flight_level_low` altitude to search for the tag. Rinse and repeat, this was the oscillation we saw instead of the landing.
 
@@ -82,6 +82,6 @@ When starting a project, make sure everyone involved states what they are ready 
 
 ### 5. Enforce code freeze procedures
 
-As much as it might pain some people to get their code frozen when they *know* that they can add one more feature or clean up one more thing. The only code that will for sure work is the one that has been tested. **Not** the one that was modified after a test. As the team manager, I should have forced a code freeze immediately after the successful test before leaving Montreal. Even if your code ends up missing a feature and no matter how much the team argues that they can do better, testing new code in production (competition) is never a good idea. 
+As much as it might pain some people to get their code frozen when they *know* that they can add one more feature or clean up one more thing. The only code that will for sure work is the one that has been tested. **Not** the one that was modified after a test. As the team manager, I should have forced a code freeze immediately after the successful test before leaving Montreal. Even if your code ends up missing a feature and no matter how much the team argues that they can do better, testing new code in production (competition) is never a good idea.
 
 In the weeks leading up to the competition we did have a small discussion about code freezing but the answer I got was simply "never, there's too many things to do". Lesson learned, no code freeze is simply not an option when the stakes are high.
