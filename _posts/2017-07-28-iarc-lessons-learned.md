@@ -58,7 +58,7 @@ What I came to realize was that a lot of companies are eager to help out student
 
 # 6. Budget for failure
 
-One of the most tedious beginning of year activities is to plan out your budget for the next competition and for your grant requests. Early on I had the right intuition to budget for possible unexpected expenses and I had portioned 10% of my total budget as "unforseen expenses". But there's a smart way of going about this.
+One of the most tedious beginning of year activities is to plan out your budget for the next competition and for your grant requests. Early on I had the right intuition to budget for possible unexpected expenses and I had portioned 10% of my total budget as "unforseen expenses". But there's a smarter way of going about it.
 
 As you budget for regular things, think about how they might have to be replaced. Need 20$ worth of propellers for one quad? Budget for 3 full crashes and boost that to 80$. Need a replacement onboard computer? Budget for two of them.
 
@@ -66,10 +66,16 @@ You know you're going to make mistakes. Adapt your budget (and your plan) to fit
 
 # 7. Logistics are just as important as technological advancement
 
-One of team Elikos' core strengths is 
+One of team Elikos' core strengths was adaptability and responsiveness to change, call it "Agile Development" if you want. Sure we cut it close at times but we always made an effort to predict our future needs and possible failures.
+
+Practically speaking this could mean buying a variety of nuts, bolts, spacers, various electronics, LiPo batteries, cameras, lenses, propellers, etc. beforehand so when the time comes where you will need these materials, you won't have to wait for buying and shipping delays. If you've planned your year right, you should be able to predict what kind of materials and equipment you need at the beginning of the year. It could also mean hurrying one project because it's a dependency to another one coming up.
+
+
 
 # 8.
 
 # 9. Don't reinvent the wheel
+
+This lesson depends on your actual goals. If your ranking at your competition matters to you,
 
 # 10. Chill out
