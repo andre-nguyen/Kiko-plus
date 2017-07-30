@@ -1,10 +1,12 @@
 ---
 layout:     post
-title:      What's the deal with mission 7 of the International Aerial Robotics Competition?
+title:      Why hasn't mission 7 of the International Aerial Robotics Competition been solved yet?
 date:       2017-07-28 01:00:0
 summary:    Having competed in it twice and finishing in first place in North America both times, I have a thing or two to say about this <figure><img src="/images/iarc/logo.png"/></figure>
 categories: robotics drones competition
 ---
+
+*Already know about IARC and just want to know why I think it hasn't been solved yet? [Skip ahead](#why).*
 
 <figure>
   <img src="/images/iarc/logo.png"/>
@@ -113,7 +115,7 @@ My understanding is that not much has changed. In fact, my own team has regresse
 
 2017 was again similar to the previous years. However, this time there were many teams present. New teams were able to demonstrate what we had demonstrated in 2014, basically taking off and landing somewhere in the arena. Unfortunately team Elikos took off and drifted out of the arena and team Ascend NTNU decided to fly manually to gather data. I have no further details than that.
 
-## Why hasn't this competition been solved yet?
+## <a name="why"></a>Why hasn't this competition been solved yet?
 
 Although the technological aspect itself comprises many popular and ongoing research subjects such as visual odometry, obstacle avoidance and control theory for MAVs, the competition has yet to be seriously tackled by serious research labs except by [Hong Kong University of Science and Technolgy's UAV lab](http://uav.ust.hk/) and [Universidad Polytecnica de Madrid's Vision4UAV lab](https://www.youtube.com/watch?v=EhrIW0DOHcE). Most of the teams seem to be comprised of undergradute students doing their best to learn about a difficult subject and heavily relying on open source projects to tackle the basic challenges of this mission.
 
