@@ -107,7 +107,7 @@ While we were demonstrating robot following, other teams were either showing up 
 
 #### 2016
 
-My understanding is that not much has changed. In fact, my own team has regressed and in 2016 Elikos showed up with less than 2015. However, not many teams were able to demonstrate autonomous flight except for KSU and Norwegian University of Science and Technology (KSU). In the end Elikos still managed to win on points and ended up first for a third year in a row. It seemed however that the competition organizers were annoyed that after 3 years the competition hadn't been solved. Michelson and al. decided to publish a ranking in terms of aptitude to actually complete the mission rather than points, to stress the importance that until you can finish the mission, points don't matter.
+My understanding is that not much has changed. In fact, my own team has regressed and in 2016 Elikos showed up with less than 2015. However, not many teams were able to demonstrate autonomous flight except for KSU and Norwegian University of Science and Technology (NTNU). In the end Elikos still managed to win on points and ended up first for a third year in a row. It seemed however that the competition organizers were annoyed that after 3 years the competition hadn't been solved. Michelson and al. decided to publish a ranking in terms of aptitude to actually complete the mission rather than points, to stress the importance that until you can finish the mission, points don't matter.
 
 #### 2017
 
