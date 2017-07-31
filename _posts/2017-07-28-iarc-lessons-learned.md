@@ -82,7 +82,7 @@ One of team Elikos' core strengths was adaptability and responsiveness to change
 
 Practically speaking this could mean buying a variety of nuts, bolts, spacers, various electronics, LiPo batteries, cameras, lenses, propellers, etc. beforehand so when the time comes where you will need these materials, you won't have to wait for buying and shipping delays. If you've planned your year right, you should be able to predict what kind of materials and equipment you need at the beginning of the year. It could also mean hurrying one project because it's a dependency to another one coming up.
 
-In other cases it could mean planning a full scale test day, planning a full systems integration day, planning a touch point, making sure you arrive to the competition a day early to get acclimated to the city, making sure you rent a spot to do your tests if you need it, getting in contact with campus security to clear your flights, getting in contact with competition organizers, etc. There is a lot of support structure you need to provide to your team. In larger student projects logistics lead can be a full job in of itself. 
+In other cases it could mean planning a full scale test day, planning a full systems integration day, planning a touch point, making sure you arrive to the competition a day early to get acclimated to the city, making sure you rent a spot to do your tests if you need it, getting in contact with campus security to clear your flights, getting in contact with competition organizers, etc. There is a lot of support structure you need to provide to your team. In larger student projects logistics lead can be a full job in of itself.
 
 # 8. Remember that the iterative process includes failure
 
@@ -94,7 +94,7 @@ It's normal. It's only a waste if you don't learn from it. Fail fast, figure out
 
 This lesson depends on your actual goals. If you're in it more for the learning experience, your ranking doesn't matter to you and you have a love for reimplementing existing things to fully understand all their intricacies, then by all means, build your own autopilot, your own air frame and so on. To my understanding, this is what University of Michigan has been doing since 2014. On the other hand, if you're in the competition to actually compete, then don't reinvent the wheel. People far smarter than you and I have been working on MAVs and their related algorithms for far longer than us and with access to much bette ressources.
 
-Is there a point to reimplementing your own position controller like UofM? Is there a point to writing your own optical flow algorithm like Embry-Riddle? Is there a point to making a new kind of aerial vehicle like Pima Community College? Not reinventing the wheel gives you time to work on things that truly matter. 
+Is there a point to reimplementing your own position controller like UofM? Is there a point to writing your own optical flow algorithm like Embry-Riddle? Is there a point to making a new kind of aerial vehicle like Pima Community College? Not reinventing the wheel gives you time to work on things that truly matter.
 
 The lesson here is obvious and mostly common sense. However it often gets lost in enthusiasm for the technology. Yes making your own attitude controller or your own state estimator would be an amazing advancement to your learning and it would certainly be an outstanding achievement. But you have to be honest here, are you doing it because you love the idea of doing things yourself or are you doing it because you truly have something to gain to get to your goals? Both answers can be correct. But they are only so if they align with your team's goals.
 
@@ -110,5 +110,6 @@ This is a lesson I wish I had truly understood while I was director of Elikos. P
 
 The lesson here is that sometimes you might just have to accept failure and that it might not be your fault. Its tough as project lead because you'll be the one who's going to have some explaining to do. But this kind of thing happens all the time, especially in student projects.
 
-Maybe I should have chilled out while I was director. Then again, my non-acceptance of failure brought us to two wins and multiple honors.
+Maybe I should have chilled out while I was team lead. Then again, my non-acceptance of failure brought us to two wins and multiple honors.
 
+There's probably a way of mitigating the risk of this situation of arising but I'm not entirely certain of what it is. For example it could be by doing interviews for prospective members in the team. I know for a fact many larger student clubs do it such as some of the Model United Nations organizations or team Ascend from NTNU. I suppose that another way is to simply accept that some people will blow smoke, not out of malice but sheer fundamental misunderstanding of the problem at hand.
