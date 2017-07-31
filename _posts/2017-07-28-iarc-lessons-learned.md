@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      10 lessons learned from competing at IARC Mission 7
+title:      10 General Lessons Learned From Competing at IARC Mission 7
 date:       2017-07-28 02:00:0
 summary:    Figured, 10 was a nice round number
 categories: robotics drones competition
