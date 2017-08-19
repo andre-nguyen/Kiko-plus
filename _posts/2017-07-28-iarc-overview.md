@@ -64,7 +64,7 @@ Around November 2013 my school approved of my project to start an aerial robotic
 
 At the time, there was already a UAV club named [SmartBird](http://smartbird.aep.polymtl.ca/) competing in the [Unmanned Systems Canada Student competition](https://www.unmannedsystems.ca/home/students/student-competition-details/). The person responsible for the student clubs had made it clear to me that my project would be refused if it was too similar to SmartBird. To emphasize the difference between the two clubs (in addition to us being rotary wing and them being fixed wing) we decided to sign up for IARC 2014 and compete in GPS denied aerial robotics.
 
-Since the competition rules heavily hint at using optical flow for navigation we built a system around the only open source optical flow system that existed at the time: the px4 flight stack combined with the px4flow module. Our intention was simply to show up and IARC to learn from other teams and at the very least, not show up empty handed with a good faith effort into having something to demonstrate. Oddly enough, it turned out we were the only team capable of fully autonomous flight and the only thing we demonstrated was taking off, moving forward to the middle of the arena (by accident) and landing. This meant we (accidentally) placed first place in North America. During the flights, I had overheard one of the judges saying that it seemed like the teams had regressed.
+Since the competition rules heavily hint at using optical flow for navigation we built a system around the only open source optical flow system that existed at the time: the px4 flight stack combined with the px4flow module. Our intention was simply to show up and IARC to learn from other teams and at the very least, not arrive empty handed with a good faith effort put into having something to demonstrate. Oddly enough, it turned out we were the only team capable of fully autonomous flight and the only thing we demonstrated was taking off, moving forward to the middle of the arena (by accident) and landing. This meant we (accidentally) placed first place in North America. During the flights, I had overheard one of the judges saying that it seemed like the teams had regressed.
 
 There are a few things to unpack here. Summer of 2014, px4 didn't have a gazebo simulation pipeline, nor was mavros a mature package (it was just starting). Furthermore, the offboard control mode didn't truly exist yet. We had reused the `c_uart_interface_example` and a pair of LairdTech RM024 radios for communication. Since offboard setpoints didn't exist, we had reused the `set_quad_swarm_roll_pitch_yaw_thrust` message to do offboard control. All in all, we had probably written less than 800 lines of code in our groundstation and a few in the px4 firmware. Most of our summer was rather spent tweaking the code, testing and dealing with hardware problems.
 
@@ -86,7 +86,7 @@ There are a few things to unpack here. Summer of 2014, px4 didn't have a gazebo 
 <figcaption>2015 flight performance earning us first place again.</figcaption>
 </figure>
 
-While we were demonstrating robot following, other teams were either showing up empty handed or with systems similar to us in 2014. Of note were Kennesaw State University taking of and landing in open loop fashion, Embry Riddle showing up again with a quad that doesn't take off and University of Michigan drifting out of the arena.
+While we were demonstrating robot following, other teams were either showing up empty handed or with systems similar to us in 2014. Of note were Kennesaw State University taking off and landing in open loop fashion, Embry Riddle showing up again with a quad that doesn't take off and University of Michigan drifting out of the arena.
 
 <div style="display: flex;">
 <figure style="width: 50%;">
@@ -136,9 +136,9 @@ The key difference here is that MBZIRC had 5 million USD in prizes to distribute
 
 When top researchers don't show up, what's left? A large group of keen undergrads with little resources but a love for the technology, trying to understand subjects just out of their reach.
 
-### 2. The scenario is difficult to market
+### 2. The competition is difficult to market
 
-When doing media appearances or interviews the first question is usually: What is the IARC? The problem is you can't answer the question in only one or two sentences and have the interviewer completely understand, not only the challenge itself but also what the entire point is. In what real life scenario does a MAV have to herd roomba robots? Why is GPS denied navigation important? How does the roomba interaction work? How are you doing your localization? What are the practical applications of what you are developping? etc...
+When doing media appearances or interviews the first question is usually: What is the IARC? The problem is you can't answer the question in only one or two sentences and have the interviewer completely understand, not only the challenge itself but also what the entire point is. In what real life scenario does a MAV have to herd roomba robots? Why is GPS denied navigation important? How does the roomba interaction work? How are you doing your localization? What are the practical applications of what you are developping? etc... Further more, the organizers don't publish global team rankings. So even when we finished first, we had difficulty marketing that fact since we didn't know our own standing vs the chinese arena. It is frustrating to have to explain year after year that nobody actually won the competition.
 
 The difficulty in marketing the competition directly translates to difficulty in getting sponsors to fund the project.
 
