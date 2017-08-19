@@ -113,7 +113,7 @@ My understanding is that not much has changed. In fact, my own team has regresse
 
 #### 2017
 
-2017 was again similar to the previous years. However, this time there were many teams present. New teams were able to demonstrate what we had demonstrated in 2014, basically taking off and landing somewhere in the arena. Unfortunately team Elikos took off and drifted out of the arena and team Ascend NTNU decided to fly manually to gather data. I have no further details than that.
+2017 was again similar to the previous years. However, this time there were many teams present. New teams were able to demonstrate what we had demonstrated in 2014, basically taking off and landing somewhere in the arena. Unfortunately team Elikos took off and drifted out of the arena and team Ascend NTNU decided to fly manually to gather data. Of note is the new team [Pittsburg Robotics and Automation Society](http://pittras.org/projects/2017-iarc/2017/08/05/update-iarc-technical-postmortem.html) with an impressive system almost built from scratch. If they are able to keep the pace of their development they would probably be in the top 3 North America teams most suitable to win.
 
 ## <a name="why"></a>Why hasn't this competition been solved yet?
 
