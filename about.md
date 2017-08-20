@@ -55,7 +55,7 @@ of 50 km/h, the fastest landing of a quadrotor on a moving platform as of yet.
 
 ### Submitted
 
-* M. S. Ramanagopal, **A. P.-V. Nguyen** and J. Le Ny, [A Motion Planning Strategy for the Active Vision-Based Mapping of Ground-Level Structures](https://arxiv.org/abs/1602.06667). Submitted, February 2016. 
+* M. S. Ramanagopal, **A. P.-V. Nguyen** and J. Le Ny, [A Motion Planning Strategy for the Active Vision-Based Mapping of Ground-Level Structures](https://arxiv.org/abs/1602.06667). IEEE Transactions on Automation Science and Engineering. Submitted, February 2016. Accepted August 2017.
 
 
 ### Journal
