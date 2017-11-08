@@ -37,7 +37,8 @@ not yet exist). In our second year we were able to demonstrate ground robot
 tracking using blob detection, with a new quadrotor equipped for omnidirectional
 sensing. For these accomplishments, in 2014 I was given the award of "Directeur de
 Société Technique de l'année" (best technical club director) by the Association
-des Étudiants de Polytechnique.
+des Étudiants de Polytechnique. All in all, every year I was managing a team of about 20
+students and a budget close to $20K.
 
 * In 2016 I was team captain of a group of 4 graduate students participating in
 the [DJI Developper Challenge](https://developer.dji.com/news/2016-dji-developer-challenge-10-teams-enter-final-round/)
