@@ -56,7 +56,7 @@ of 50 km/h, the fastest landing of a quadrotor on a moving platform as of yet.
 
 ### Journal
 
-* M. Srinivasan Ramanagopal, **A. P. V. Nguyen** and J. Le Ny, ["A Motion Planning Strategy for the Active Vision-Based Mapping of Ground-Level Structures,"](http://ieeexplore.ieee.org/document/8093664/) in IEEE Transactions on Automation Science and Engineering, vol. PP, no. 99, pp. 1-13. 01 November 2017.
+* M. Srinivasan Ramanagopal, **A. Phu-Van Nguyen** and J. Le Ny, ["A Motion Planning Strategy for the Active Vision-Based Mapping of Ground-Level Structures,"](http://ieeexplore.ieee.org/document/8093664/)  in IEEE Transactions on Automation Science and Engineering, vol. 15, no. 1, pp. 356-368, Jan. 2018.
 doi: 10.1109/TASE.2017.2762088
 * A. Borowczyk, D.-T. Nguyen, **A. Phu-Van Nguyen**, D. Q. Nguyen, D. Saussié and J. Le Ny, [Autonomous Landing of a Quadcopter on a High-Speed Ground Vehicle](https://arc.aiaa.org/doi/abs/10.2514/1.G002703). AIAA Journal of Guidance, Control and Dynamics, In Press, 2017.
 
