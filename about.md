@@ -55,8 +55,8 @@ of 50 km/h, the fastest landing of a quadrotor on a moving platform as of yet.
 ## Publications
 
 My involvement in these publications usually revolve around help with the actual 
-implementation of these systems as I have a background in computer engineering
-while still having a good understanding of robotics.
+implementation of these systems as I am proficient in programming due to my background 
+in computer engineering while still having a good understanding of robotics.
 
 ### Journal
 
