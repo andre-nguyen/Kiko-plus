@@ -3,7 +3,7 @@ title: About
 permalink: /about/
 ---
 
-My name is Andre Phu-Van Nguyen and I'm an M.Sc.A. student at Polytechnique
+My name is Andre Phu-Van Nguyen and I'm an M.Sc.A. graduate from Polytechnique
 Montreal part of the Mobile Robotics and Autonomous Systems Laboratory under
 professors [Jerome Le Ny](http://www.professeurs.polymtl.ca/jerome.le-ny/)
 and [David Saussié](http://www.polymtl.ca/recherche/rc/en/professeurs/details.php?NoProf=513).
@@ -53,6 +53,10 @@ of 50 km/h, the fastest landing of a quadrotor on a moving platform as of yet.
 
 
 ## Publications
+
+My involvement in these publications usually revolve around help with the actual 
+implementation of these systems as I have a background in computer engineering
+while still having a good understanding of robotics.
 
 ### Journal
 
