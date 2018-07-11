@@ -86,7 +86,7 @@ In other cases it could mean planning a full scale test day, planning a full sys
 
 # 8. Remember that the iterative process includes failure
 
-I've touched on this in the other lessons but it's definitely a lesson in of itself. If you're starting from scratch you'll break things, you'll crash things, you'll working useless things, you'll work on things that are too hard, you'll work on things when the things it depends on don't even work, you'll fail.
+I've touched on this in the other lessons but it's definitely a lesson in of itself. If you're starting from scratch you'll break things, you'll crash things, you'll work on useless things, you'll work on things that are too hard, you'll work on things when the other things it depends on don't even work, you'll fail.
 
 It's normal. It's only a waste if you don't learn from it. Fail fast, figure out what you've learned and try again.
 
