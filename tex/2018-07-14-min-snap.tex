@@ -69,7 +69,7 @@ Let's now examine how we can formulate a trajectory generation problem knowing t
 		& \frac{d^p \psi_T}{dt^p}|_{t=t_j} = 0\ \text{or free,} & j = 0, \ldots, m; p = 1, \ldots, k_\psi\\
 	\end{array}
 \]
-where $\mu_r$ and $\mu_\psi$ are constants that make the integrand nondimensional.
+where $\mu_r$ and $\mu_\psi$ are constants that make the integrand nondimensional. Before we move on, Melling explains a most interesting property of our polynomial trajectorties called non-dimensionalization.
 
 \subsection{Why Minimize Snap?}
 You might be wondering, why are we minimizing snap specifically rather than any other of the derivatives? 
@@ -91,6 +91,6 @@ If you aren't familiar with optimization theory, quadratic programming is the pr
 	\end{array}
 \]
 
-where your vector $c$ is filled with your decision variables and you use matrix $A$ and vector $b$ to encode your equality (or inequality) constraints. In our case $c$ will be the constant coefficients of our polynomials $\sigma_{T_{ij}} = [x_{T_{ij}}, y_{T_{ij}}, z_{T_{ij}}, \psi_{T_{ij}}]$ and will be of size $4nm \times 1$
+where your vector $c$ is filled with your decision variables and you use matrix $A$ and vector $b$ to encode your equality (or inequality) constraints. In our case $c$ will be the constant coefficients of our polynomials $\sigma_{T_{ij}} = [x_{T_{ij}}, y_{T_{ij}}, z_{T_{ij}}, \psi_{T_{ij}}]$ and will be of size $4nm \times 1$.
 
 \end{document} 
