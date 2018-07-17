@@ -66,7 +66,7 @@ doi: 10.1109/TASE.2017.2762088
 
 ### Conference Proceedings
 
-* A. Borowczyk, D.-T. Nguyen, **A. Phu-Van Nguyen**, D. Q. Nguyen, D. Saussié and J. Le Ny, [Autonomous Landing of a Multirotor Micro Air Vehicle on a High Velocity Ground Vehicle](https://arxiv.org/abs/1611.07329). Proceedings of the IFAC World Congress, Toulouse, France, July 2017.
+* A. Borowczyk, D.-T. Nguyen, **A. Phu-Van Nguyen**, D. Q. Nguyen, D. Saussié and J. Le Ny, [Autonomous Landing of a Multirotor Micro Air Vehicle on a High Velocity Ground Vehicle](https://www.sciencedirect.com/science/article/pii/S2405896317326186). Proceedings of the IFAC World Congress, Toulouse, France, July 2017.
 
 ## Awards
 
