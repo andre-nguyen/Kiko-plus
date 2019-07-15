@@ -7,6 +7,10 @@ My name is Andre Phu-Van Nguyen and I'm an M.Sc.A. graduate from Polytechnique
 Montreal part of the Mobile Robotics and Autonomous Systems Laboratory under
 professors [Jerome Le Ny](http://www.professeurs.polymtl.ca/jerome.le-ny/)
 and [David Saussié](http://www.polymtl.ca/recherche/rc/en/professeurs/details.php?NoProf=513).
+
+I currently (2019) work at [ARA Robotics](https://www.ara-uas.com/) where I
+build and design GNSS denied navigation systems using LIDAR based SLAM.
+
 In the past, I have been a lab instructor for two classes
 
 * [INF1500](http://www.polymtl.ca/etudes/cours/details.php?sigle=INF1500)
