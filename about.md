@@ -8,8 +8,8 @@ Montreal part of the Mobile Robotics and Autonomous Systems Laboratory under
 professors [Jerome Le Ny](http://www.professeurs.polymtl.ca/jerome.le-ny/)
 and [David Saussié](http://www.polymtl.ca/recherche/rc/en/professeurs/details.php?NoProf=513).
 
-I currently (2019) work at [ARA Robotics](https://www.ara-uas.com/) where I
-build and design GNSS denied navigation systems using LIDAR based SLAM.
+I currently (2020) work at [Applanix](https://www.ara-uas.com/) where I'm part of
+the Autonomy team primarily on LIDAR based SLAM for various autonomous vehicles.
 
 In the past, I have been a lab instructor for two classes
 
