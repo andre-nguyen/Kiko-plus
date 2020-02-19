@@ -267,19 +267,19 @@ I could go on and on with the problems I faced but I'm already tired of writing 
 * The project was poorly managed, there was no clear vision on what we were building. There weren't even any specifications or requirements to meet.
 * I was stuck doing a mix of embedded programming and hardware to synchronize sensors, continuous integration because apparently 2/3 of the software guys in the company couldn't be bothered to maintain our Jenkins server, teaching C++ to my teammate and writing some infrastructure code to accomodate his poorly written algorithms. Basically no robotics.
 
-I was a bit over a year in and couldn't take it anymore. All that time had been wasted and I had nothing to show for it. My career was off to a terrible start and I had learned nothing in that span of time other than the fact that I didn't want to be surrounded by people who had less experience than I did. And thats saying quite a bit coming from someone fresh out of school. While others would relish at the chance I wanted to be somewhere where I'd be the dumbest one
+I was a bit over a year in and couldn't take it anymore. All that time had been wasted and I had nothing to show for it. My career was off to a terrible start and I had learned nothing in that span of time other than the fact that I didn't want to be surrounded by people who had less experience than I did. And thats saying quite a bit coming from someone fresh out of school. While others would relish at the chance to demonstrate their knowledge and show the way for the less experience, I wanted to be somewhere where I'd be the dumbest one
 there with everything to learn. I wanted to step on a springboard that could eventually launch me to a job at
 [X](https://x.company/). 
 
 I started looking for a job but this time I actually put some effort into it. After a few interviews with
-various companies, I decided on join the [Applanix Autonomy team](https://www.applanix.com/products/autonomyplatform.htm). While very small team and not quite related to drones, it looked like a great opportunity for learning and career growth without moving to San Francisco with all the startups backed by VC money.
+various companies, I decided on join the [Applanix Autonomy team](https://www.applanix.com/products/autonomyplatform.htm). While very small team and not quite related to drones, it looked like a great opportunity for learning and career growth without having to move to San Francisco with all the startups backed by VC money.
 
 <figure>
   <img style="width: 75%" src="/images/career_moves/applanix.jpg"/>
   <figcaption>Smiling because I never saw so many lidars in person.</figcaption>
 </figure>
 
-Today, I am cautiously optimistic about the move I made. The guys are competent, the product directors
+Today, I am cautiously optimistic about the move I made. The guys are competent, the business development managers
 understand the technology and are serious about making a business out of it. The product is already being
 deployed on customer premises with the team doing multiple field deployments a year. All new employees go through a sort of orientation on their first week which was my chance to ask some longstanding questions I had accumulated over the past year. I learned more in a two hour conversation with the guy
 working on qualifying IMUs than I did in an entire year at my previous company.
