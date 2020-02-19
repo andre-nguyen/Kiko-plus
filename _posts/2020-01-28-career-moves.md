@@ -218,7 +218,11 @@ wouldn't be able to cope with the dynamics, making us waste another year redevel
 I continued to voice my opinion and the responses were still mostly dismissal.
 *"We'll cross that bridge when we get there."*,
 *"Maybe we can make it spin later and create a new SLAM algorithm when we do."* or my favorite response
-from my fellow SLAM teammate *"We can put two Velodyne pucks on a drone, one to do the state estimation and one to do scanning in a pushbroom fashion."* **Cue Geralt saying "fuck"**. The one guy who can do the 
+from my fellow SLAM teammate *"We can put two Velodyne pucks on a drone, one to do the state estimation and one to do scanning in a pushbroom fashion."* 
+
+**Cue Geralt saying "fuck"**. 
+
+The one guy who can do the 
 SLAM math doesn't know anything about drones and wants to add 1.2kg of lasers to an indoor drone in addition
 to the wiring, mounting hardware and onboard computer.
 
@@ -227,14 +231,38 @@ Emesent. He came back saying that making a 3D lidar spin made sense and we shoul
 I just felt insulted. Not only was it a lie that I could have a role to play in the decision making, my ideas
 were only of value if they were the same as the ones from someone in management.
 
+### Head In the Sand
+
+When I joined, I found it puzzling that I was the only employee with an academic background in robotics but I didn't think much of it. After all, robotics is a multidisciplinary field that requires a great deal of collaboration, but when your team is small, I believe its important for people to be multidisciplinary and apt at understanding as many facets of the project as possible. When working in a small startup, you simply don't have the ressources to hire all the experts you need. Instead, you'll need to wear many hats and help out wherever you can to advance the project.
+
+The company managers seemed to have the exact opposite mentality to me. Our COO explained that "a math guy should do maths and a programming guy should program." Thus all employees become very narrow experts and pass eachother the ball when needed. The problem here was that we simply did not have the ressources to move forward. There came a time when we needed to build hardware to synchronize our lidar with our other sensors. Our hardware/embedded guys were busy for the forseeable month with some features in another product and wouldn't be able to provide their expertise. On one hand, I could've feigned incompetence like everyone else and simply said that it wasn't part of my job description as I am a Robotic Perception and SLAM expert. On the other hand, I do have a sense of responsibility and decided to go ahead and learn how to use CubeMX to do a little bit of embedded programming.
+
+Anytime my teammate didn't want to do something he would simply repeat the same thing: "I don't know how to do that." Never followed up by "But I'll look into it." or "I'll try to figure it out." I would end up having to either show him how to do it, by doing it in front of him, or doing it on my own. It seemed generally accepted that if things we're even slightly outside of your comfort zone it was ok to pass it off to someone else. Which is how I ended up spending weeks of my time there working on continuous integration, docker containers, server maintenance and writing infrastructure code for my colleague instead of actually working on SLAM algorithms as was in my job description. In essence, I had become a Devops/Personnal Programming Assistant to a guy with less knowledge and less experience than I.
+
+The lack of responsiblity in the company was so bad that one guy would act like he never heard the company phone ring even though he sat right next to it. I would have to get up and walk two desks over to answer for him.
+
+### A Robotics Company With No Roboticists
+
+On the subject of no one in the company having a robotics background, things couldn't have been worse. After being kicked out of being a fake-project manager and having our CTO take over technological decisions, it was apparent that this wouldn't be entirely true. The project supervisor remained the COO and it would be his decision what the team would prioritize. Cue the most frustrating quote of all time:
+
+> Knowing the direction of gravity doesn't matter, we just want lidar scans.
+> 
+> &mdash; COO of the company
+
+I tried arguing that things would drift and eventually the ground wouldn't be flat but I was ignored. Later on, when new maps were produced you could see parts of a building caving in on itselve because of a drift in pitch angle.
+
+My frustrations with the lack of robotics knowledge wasn't limited to the COO. The SLAM team's day-to-day operations (morning scrum) was supervised by a software guy with a great disdain for anything robotics related. On one hand he would vigorously argue about code line lengths and architecture while simultaneously denigrating anything not related to software engineering. In fact, he seemed to have a hard time saying the word "voxel" without also appending the suffix *-shit*. 
+
+> Yeah just do your voxel-shit or whatever and we'll take over from there.
+
+There's something deeply irritating when someone disrespects your core comptency, but the whole thing because a huge joke when you remind yourself that you would in an "aerial robotics" company with no roboticists.
+
+
 ## Moving on
 
 I could go on and on with the problems I faced but I'm already tired of writing this post. To summarize in point form:
 
-* My teammate was using me as his personnal programming assistant making me do all his dirty work.
-* My day to day supervisor would vigorously argue with me about some of the most inconsequential things such as code line length while simultaneously denigrating anything not related to software engineering. I swear he couldn't even say the word voxel without appending the suffix *-shit*. *"Yeah just do your voxel-shit and we'll take over from there."*
-* My project supervisor (the COO) didn't understand robotics and would decide the direction of the project and I'll quote: *"Knowing the direction of gravity doesn't matter, we just want lidar scans."* Enter crooked maps and drifting lidar scans.
-* My ideas would repeatedly be shutdown only to be brought back when someone in management decided it was a good idea after seeing a competitor with the same concept.
+* My ideas would repeatedly be shutdown only to be brought back when someone in management decided it was a good idea after seeing a competitor with the same concept. No one would bother actively researching the competition.
 * My CEO wasn't developping a business case. All he had going was this one guy from a construction company saying he would be interested in such a product. I later realized we weren't actually there to develop a product but to fill a [series](https://buyandsell.gc.ca/procurement-data/award-notice/PW-SV-011-34025-001) of [contracts](https://buyandsell.gc.ca/procurement-data/award-notice/PW-SV1-005-37033-001) the company had with the Government of Canada. I don't think I can say what we did, but I do think I can say that I wasn't proud. Nothing illegal of course, but I do think my research advisors would have been very much dissapointed.
 * The project was poorly managed, there was no clear vision on what we were building. There weren't even any specifications or requirements to meet.
 * I was stuck doing a mix of embedded programming and hardware to synchronize sensors, continuous integration because apparently 2/3 of the software guys in the company couldn't be bothered to maintain our Jenkins server, teaching C++ to my teammate and writing some infrastructure code to accomodate his poorly written algorithms. Basically no robotics.
