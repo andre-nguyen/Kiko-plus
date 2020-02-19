@@ -243,13 +243,13 @@ The lack of responsiblity in the company was so bad that one guy would act like 
 
 ### A Robotics Company With No Roboticists
 
-On the subject of no one in the company having a robotics background, things couldn't have been worse. After being kicked out of being a fake-project manager and having our CTO take over technological decisions, it was apparent that this wouldn't be entirely true. The project supervisor remained the COO and it would be his decision what the team would prioritize. Cue the most frustrating quote of all time:
+On the subject of no one in the company having a robotics background, things couldn't have been worse. After being kicked out of being a fake-project manager and having our CTO take over all technological decisions, it was apparent that the CTO didn't even have time to follow up on the project. Thus, the project supervisor remained the COO and it would be his decision what the team would prioritize. Cue the most frustrating quote of all time:
 
 > Knowing the direction of gravity doesn't matter, we just want lidar scans.
 > 
 > &mdash; COO of the company
 
-I tried arguing that things would drift and eventually the ground wouldn't be flat but I was ignored. Later on, when new maps were produced you could see parts of a building caving in on itselve because of a drift in pitch angle.
+I tried arguing that things would drift and eventually the ground wouldn't be flat but I was ignored. Later on, when new maps were produced you could see parts of a building caving in on themselves because of a drift in roll and pitch angle.
 
 My frustrations with the lack of robotics knowledge wasn't limited to the COO. The SLAM team's day-to-day operations (morning scrum) was supervised by a software guy with a great disdain for anything robotics related. On one hand he would vigorously argue about code line lengths and architecture while simultaneously denigrating anything not related to software engineering. In fact, he seemed to have a hard time saying the word "voxel" without also appending the suffix *-shit*. 
 
